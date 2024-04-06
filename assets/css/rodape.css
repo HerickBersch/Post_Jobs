@@ -1,0 +1,85 @@
+:root {
+    --green-color: #6DE754;
+    --black-color: #000000;
+    --black-gray-color: #1F392C;
+    --font-semibold: 'semibold', sans-serif;
+    --font-regular: 'regular', sans-serif;
+    --font-medium: 'medium', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 713px;
+    padding: 3% 10%;
+    color: var(--black-color);
+    background-color: var(--green-color);
+}
+
+.rodape__titulo {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: var(--font-semibold);
+}
+
+.rodape_descricao {
+    width: 360px;
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--font-regular);
+}
+
+.rodape__button {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--font-semibold);
+    padding: 10px 50px;
+    border-radius: 24px;
+    border: 1px solid var(--black-color);
+    background-color: var(--green-color);
+}
+
+.rodape__menu_espandido {
+    display: flex;
+    gap: 170px;
+    margin-top: 10px;
+}
+
+.menu_espandido__menu {
+    line-height: 40px;
+}
+
+strong {
+    font-size: 20px;
+    font-family: var(--font-medium);
+}
+
+.menu_item {
+    font-size: 16px;
+    font-family: var(--font-regular);
+}
+
+.menu_item__email {
+    font-family: var(--font-regular);
+    margin-top: 1px;
+}
+
+.icons__lista {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 15px
+}
+
+.rodape__direitos {
+    color: var(--black-gray-color);
+    font-size: 16px;
+    font-family: var(--font-regular);
+}

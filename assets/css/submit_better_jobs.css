@@ -1,0 +1,47 @@
+.conteudo_principal__submit_better_jobs{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;
+    background-color: var(--green-color);
+    font-family: 'Open Sans',serif;
+    color: var(--black-color);
+    align-items: center;
+}
+
+.submit_better_jobs__titulo {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 20px;
+    font-family: var(--font-semibold);
+}
+
+.textos__titulo{
+    display: flex;
+    font-family: var(--font-semibold);
+    font-size: 152px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 80px;   
+}
+
+.textos__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.texto__message{
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_better_jobs__imagem {
+    padding-top: 20px;
+}
